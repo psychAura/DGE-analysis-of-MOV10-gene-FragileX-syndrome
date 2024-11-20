@@ -6,13 +6,13 @@ An end-to-end gene-level RNA-seq differential expression workflow using various 
 
 - Read data obtained from Salmon, 
 
--convert pseudocounts to counts, 
+- convert pseudocounts to counts, 
 
--perform exploratory data analysis for quality assessment and to explore the relationship between samples,
+- perform exploratory data analysis for quality assessment and to explore the relationship between samples,
 
 - perform differential expression analysis, 
 
--and visually explore the results prior to performing downstream functional analysis.
+- and visually explore the results prior to performing downstream functional analysis.
 
 ## Dataset
 
@@ -25,22 +25,22 @@ Using these data, we will evaluate transcriptional patterns associated with pert
 ## Dependencies
 ## Setup
 ### Bioconductor and CRAN libraries used
--library(DESeq2)
+- library(DESeq2)
 
--library(tidyverse)
+- library(tidyverse)
 
--library(RColorBrewer)
+- library(RColorBrewer)
 
--library(pheatmap)
+- library(pheatmap)
 
--library(DEGreport)
+- library(DEGreport)
 
--library(tximport)
+- library(tximport)
 
--library(ggplot2)
+- library(ggplot2)
 
--library(ggrepel)
+- library(ggrepel)
 
 ## Primary folder
 
--de_scrippt.R
+- de_scrippt.R
